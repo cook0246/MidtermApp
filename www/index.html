@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="css/styles.css" media ="screen" type = "text/css">
+    <script src="cordova.js"></script>
+    <script type="text/javascript" src="js/hammer-min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxG4DQ0H3e0tyg0SyBjDbZwFrMx3ytOwY"></script>
+</head>
+
+<!-- application title bar -->
+<header class="apptitle">
+  <h3>cook0246 Midterm</h3>
+</header>
+<!-- tabbed navigation bar -->
+<nav class="tabs">
+  <ul>    
+    <li class="li-1-2"><a href="#one" data-role="pagelink" id="tab1" class="activetab"></a></li>
+    <li class="li-1-2"><a href="#two" data-role="pagelink" id="tab2"></a></li>
+  </ul>
+</nav>
+
+<body>
+    <section data-role="page" id="one" class="active">
+        <h2>Contacts</h2>
+        <div class="center wrapper">
+            <ul class="hammered" id="contactsHolder">
+
+            </ul>
+        </div>
+    </section>
+    <section data-role="page" id="two">   
+        <h1 id ="mapHeader">Contact Name will be here</h1>
+        <div id="map-canvas"></div>
+    </section>
+
+
+</body>
+    
+</html>
+
+<script type="text/javascript" src="js/events.js"></script>
